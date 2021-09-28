@@ -68,7 +68,7 @@ environment.
 
 ## Installation
 
-***<u>Azure IoT Hub Configuration</u>***
+## ***<u>Azure IoT Hub Configuration</u>***
 
 1.  Follow Microsoft Documentation on how to create IoT Hub [Use the
     Azure portal to create an IoT Hub \| Microsoft
