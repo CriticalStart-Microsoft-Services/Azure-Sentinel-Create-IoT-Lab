@@ -68,6 +68,8 @@ environment.
 
 ## Installation
 
+</br>
+
 ## ***<u>Azure IoT Hub Configuration</u>***
 
 1.  Follow Microsoft Documentation on how to create IoT Hub [Use the
@@ -81,7 +83,7 @@ environment.
 
 </br></br>
 
-## <u>Docker Host VM Configuration</u>
+## ***<u>Docker Host VM Configuration</u>***
 
 1.  Create new Server 2016 or above VM with a new external network
     switch. (**Note:** Do not use Default switch as it does not support
@@ -132,7 +134,7 @@ environment.
 
 </br></br>
 
-***<u>Deploy Docker Containers</u>***
+## ***<u>Deploy Docker Containers</u>***
 
 1.  Download ‘TemperatureSensorSimulator-Content.zip’ provided as in current repo and extract
 
