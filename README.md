@@ -81,7 +81,7 @@ environment.
 
 </br></br>
 
-***<u>Docker Host VM Configuration</u>***
+###***<u>Docker Host VM Configuration</u>***
 
 1.  Create new Server 2016 or above VM with a new external network
     switch. (**Note:** Do not use Default switch as it does not support
