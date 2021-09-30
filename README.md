@@ -95,9 +95,9 @@ environment.
 
     1.  Run the following PowerShell statement to enable nested
         virtualization
-
+```PowerShell
         >Set-VMProcessor -VMName \<VMName> -ExposeVirtualizationExtensions $true
-
+```
 2.  Configure MAC Spoofing and Port Mirroring (set as Source)
 
 > <img src="./media/image3.PNG" style="width:5.5in;height:5.13056in" alt="Graphical user interface, text, application Description automatically generated" />
