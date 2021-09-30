@@ -45,7 +45,7 @@ The lab environment could easily be extended by adding a Kali-Linux VM
 on the same external Hyper-V switch to launch attacks and perform blue
 team exercise.
 
-> Click on Image to Enlarge
+>> ***Click on Image to Enlarge
 
 <img src="./media/image1.png" style="width:10.36458in;height:6.33333in" alt="Graphical user interface, diagram Description automatically generated" />
 
