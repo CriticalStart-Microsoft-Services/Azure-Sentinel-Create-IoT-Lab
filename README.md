@@ -96,7 +96,7 @@ environment.
     1.  Run the following PowerShell statement to enable nested
         virtualization
 ```PowerShell
-        >Set-VMProcessor -VMName \<VMName> -ExposeVirtualizationExtensions $true
+        Set-VMProcessor -VMName \<VMName> -ExposeVirtualizationExtensions $true
 ```
 2.  Configure MAC Spoofing and Port Mirroring (set as Source)
 
@@ -105,35 +105,34 @@ environment.
 3.  Turn on VM and install Windows and update.
 
 4.  **Turn Off Windows Firewall**
-
-    > Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
-
+```PowerShell
+       Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
+```
 5.  **Install Az PowerShell Modules**
-
-    > Install-Module Az -Force
-
+```PowerShell
+      Install-Module Az -Force
+```
 6.  **Install Windows Container Features on VM**
-
-    > Install-WindowsFeature -Name Hyper-V -IncludeManagementTools
-    >
-    > Install-WindowsFeature -Name Containers
-    >
-    > Restart-Computer
-
+```PowerShell
+      Install-WindowsFeature -Name Hyper-V -IncludeManagementTools
+    
+      Install-WindowsFeature -Name Containers
+    
+      Restart-Computer
+```
 7.  **Install Docker**
-
-    > Install-Module DockerProvider -force
-    >
-    > Install-Package Docker -ProviderName DockerProvider -RequiredVersion
-    > preview -force
-    >
-    > Restart-Computer
-
+```PowerShell
+     Install-Module DockerProvider -force
+    
+     Install-Package Docker -ProviderName DockerProvider -RequiredVersion
+     preview -force
+    
+     Restart-Computer
+```
 8.  **Create Docker Transparent Network called DockerNet**
-
-    > docker network create -d transparent --subnet=192.168.1.0/24
-    > --gateway=192.168.1.1 DockerNet
-
+```PowerShell
+    docker network create -d transparent --subnet=192.168.1.0/24 --gateway=192.168.1.1 DockerNet
+```
 </br></br>
 
 ## ***<u>Deploy Docker Containers</u>***
