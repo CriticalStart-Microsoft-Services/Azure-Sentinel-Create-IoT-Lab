@@ -169,11 +169,11 @@ environment.
 </br>
 
 
-##**Contact**
+## **Contact**
 
 Email: <MicrosoftTeam@criticalstart.com>
 
-##**About**
+## **About**
 
 What we do:</br></br>
 **Managed Detection and Response (MDR) Services:*** CRITICALSTART is the only MDR provider committed to eliminating acceptable risk and leaving nothing to chance. That’s why our security experts built a system, platform & service that quickly detects every event, resolves every alert & stops breaches.
