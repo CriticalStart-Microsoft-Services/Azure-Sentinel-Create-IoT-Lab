@@ -163,8 +163,8 @@ environment.
 
 ***Deploy Defender for IoT***
 1.	Follow instructions [here](https://docs.microsoft.com/en-us/azure/defender-for-iot/organizations/how-to-install-software#sensor-installation-for-the-virtual-appliance) to deploy Defender for IoT on a Hyper-V VM. 
-2.	Follow steps [here](https://docs.microsoft.com/en-us/azure/defender-for-iot/organizations/how-to-install-software#configure-a-span-port) to configure SPAN port on Hyper-V)
-3.	Details on how to [activate](https://docs.microsoft.com/en-us/azure/defender-for-iot/organizations/how-to-activate-and-set-up-your-sensor) Defender for IoT Hyper-V Sensor)
+2.	Follow steps [here](https://docs.microsoft.com/en-us/azure/defender-for-iot/organizations/how-to-install-software#configure-a-span-port) to configure SPAN port on Hyper-V
+3.	Details on how to [activate](https://docs.microsoft.com/en-us/azure/defender-for-iot/organizations/how-to-activate-and-set-up-your-sensor) Defender for IoT Hyper-V Sensor
 
 </br>
 
